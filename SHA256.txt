@@ -1,0 +1,4 @@
+SHA256 (criptobaiao-fortaleza-2019-tor.jpeg) = 33b0baae529564ecc6d722824ad26e89274ff74af4d0e0c579d618b7e1e0507f
+SHA256 (criptobaiao-fortaleza-2019-tor.jpeg.asc) = 571debb1b2a657b51d7022bb51e3c1d4da5e2c5fd2c97f09b627cc2a1ae5e24c
+SHA256 (criptobaiao-fortaleza-2019-tor.pdf) = 1b3c6fd0f3b30d2a3082ecef86fa424715f00943ae34ba66c78d98e8fb72de9d
+SHA256 (criptobaiao-fortaleza-2019-tor.pdf.asc) = 9286872608c566b93f6a2fb830195dba30970c32e1ca6ff2ad5dbf29ca5f7fb5
