@@ -1,0 +1,138 @@
+• conceitos basicos
+  + definiçoes (resumo)
+    - projeto;
+    - protocolo; 
+    - rede;
+    - navegador.
+  + visao simplificada da rede
+    - ingresso;
+    - circuito;
+    - servicos.
+  + alternativas a gosto
+    - modo privado;
+    - extensoes;
+    - proxy;
+    - outros navegadores;
+    - rede virtual privada (vpn);
+    - i2p;
+    - freenet.
+######################################################################
+
+• perguntas frequentes
+  + tor? Tor? TOR? Thor?
+  + quem usa?
+  + porque usar?
+  + crimonosos? spammers? hackers? trolls?
+  + deveria existir bloqueio de certos conteudos ou sitios web. nao?
+  + aplicaçoes compativeis?
+  + financiamento apoiado por militares?
+  + vírus? backdoors?
+  + a rede nao poderia ser mais rapida? (quero assistir netflix)
+  + mais saltos garantiriam mais privacidade. como nao pensaram nisso?
+  + compartilhamento de arquivos?
+  + qual o sentido em publicar a lista de nos?
+  + garantia de anonimato?
+  + problemas por colaborar? (policia federal vai invadir minha casa)
+  + como colaborar?
+    - derechosdigitales.org;
+    - torservers.net (icetor.is, digitale-gesellschaft.ch, enn.lu, awp.is);
+    - noisebridge.net; emeraldonion.org; nos-oignons.net; dfri.se.
+######################################################################
+
+• esforcos relacionados
+  + navegador Tor
+    - estacoes de trabalho;
+    - dispositivos moveis (orbot & orfox, onion browser).
+  + ooni
+    - explorer;
+    - api.
+  + library freedom project;
+  + torbsd;
+  + metrics (atlas, exonerator)
+    - collector;
+    - onionoo.
+  + torbirdy;
+  + chatsecure; ricochet (cwtch); briar;
+  + tails; whonix; qubes;
+  + onionshare;
+  + securedrop (deaddrop, strongbox); globaleaks;
+  + nyx; stem; txtorcon; bine; carml; orchid;
+  + onionbalance; onionscan;
+  + heaven.
+######################################################################
+
+• ferramentas adicionais
+  + pf, ipfw, netfilter (iptables), npf, ufw; 
+  + wireshark (tshark), tcpdump;
+  + unbound, dnsp, dnscrypt-proxy, doh-proxy;
+  + socat, netcat (nc), redsocks, torsocks, proxychains;
+  + privoxy, polipo, squid, haproxy;
+  + kvm, qemu, xen, virtualbox, docker, chroot, jail (FreeBSD), vmm (OpenBSD);
+  + suricata, snort, zeek (bro);
+  + ntpd, openntpd, ntpdate;
+  + enigmail, keybase, gnupg (gpg);
+  + metagoofil, mat;
+  + keepassxc; otp.
+######################################################################
+
+• informacoes adicionais sobre a rede
+  + ingresso de nos na rede
+  + obtencao do navegador com uma ajudinha extra
+  + pontes (nos de entrada camaradas
+  + obfuscadores de trafego (pyptlib, goptlib, pluto, liballium)
+    - fteproxy;
+    - obfs4;
+    - meek; meek-amazon; meek-azure;
+    - scramblesuit;
+    - marionette; snowflake; psiphon3; lampshade; basket2; shadowsocks;
+    - skypemorph; flashproxy; uproxy; telex; stegotorus; sshproxy.
+######################################################################
+
+• servicos acebolados
+  + .onion
+    - /torspec/address-spec.txt;
+    - /torspec/rend-spec-v2.txt;
+    - /torspec/rend-spec-v3.txt.
+  + HTTP, SSH/SFTP, SMTP/IMAP/POP, DNS, ...
+  + encriptação fim-a-fim;
+  + auto-autenticados, dispensando autoridade certificadora;
+  + driblam tradução de endereços de rede (NAT punching);
+  + modo privado/restrito/camuflado (steath mode).
+######################################################################
+
+• graficos e numeros interessantes (estatisticas)
+  + facebook, maior onion service dentro da rede Tor;
+  + enderecos .onion atualmente;
+    - preco;
+    - dominios existentes (tld, gtld);
+    - github pages (.io);
+    - fracao de onion services, comparada.
+  + relays e bridges
+    - quantidade global;
+    - paises com maior num. de relays;
+    - nos de saida existentes;
+    - sistemas operacionais;
+    - versoes utilizadas para manter a rede.
+  + usuarios conectados
+    - mundialmente falando;
+    - apenas no brasil.
+  + banda utilizada
+    - declarada, para uso publico;
+    - em uso para acesso de servicos acebolados.
+  + tempo estimado para download
+    - 1mb;
+    - 5mb.
+  + mapas
+    - tormap (github);
+    - toratlas (twitter);
+    - ornetstatus; ornetradar (nusenu).
+######################################################################
+
+• colaboracao, suporte e pesquisa
+  + sitio oficial localizado; blog; twitter;
+  + wiki;
+  + irc (oftc);
+  + listas de discussao;
+  + reddit;
+  + git (tpo, gihub);
+  + chutney; shadow.

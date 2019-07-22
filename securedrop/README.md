@@ -1,0 +1,75 @@
+# Guia do Informante
+
+Este conteúdo é uma tradução e interpretação livre feita a partir de https://docs.securedrop.org/en/release-0.12.1/source.html
+
+## Escolhendo o Local
+
+Quando segurança nacional está em questão, sugere-se que você compre um pendrive USB e um computador novo (podendo ser um ultrabook ou netbook). Pague em dinheiro! De quaisquer maneiras, você deve então encontrar um lugar tal qual um espaço para co-working ou um cyber café que você não vai regularmente e sentar-se em um lugar de costas para uma parede para evitar câmeras capturando informações em sua tela ou teclas pressionadas.
+
+## Obtendo o Navegador Tor
+
+Para que seja possível acessar a interface web disponibilizada pelo SecureDrop, você necessita conectar-se através da rede Tor para ter acesso ao Onion Service que oferece os serviços do SecureDrop. Recomenda-se, então, a utilização do navegador Tor!
+
+A maneira mais fácil e segura de obter o navegador Tor é baixá-lo através do sítio web oficial do projeto Tor, em https://www.torproject.org/pt-BR/. Este navegador é uma versão modificada do Mozilla Firefox projetada para proteger sua privacidade e anonimato.
+
+Caso existam changes de que você levantaria suspeitas ao acessar o sítio web oficial anteriormente citado, existem métodos alternativos para você conseguir obter o navegador Tor:
+
+	* Se seu serviço de e-mail não aparenta ser monitorado, escreva um email (em branco) para gettor@torproject.org, e logo depois você deve receber uma respostas com as instruções de como obter o navegador - você pode, ainda, especificar a língua e escrever diretamenta para gettor+pt@torproject.org;
+	* Por acaso, se você for familiar com XMPP, envie uma mensagem para gettor@torproject.org e aguarde o retorno do robô;
+	* Escreva uma mensagem privada para https://twitter.com/get_tor (@get_tor) via Twitter e espere ser atendido em alguns instantes pelo robô, com as instruções para obter seu navegador Tor;
+	* Prefere ver diferentes fontes para obter o navegador através do GitHub? https://github.com/TheTorProject/gettorbrowser
+
+### RECOMENDAÇÃO (Obtendo o Navegador Tor)
+
+Apesar do navegador Tor manter seu anonimato, análises forenses podem comprovar que você utilizou/instalou o navegador em seu computador pessoal! Para evitar 100% esta possibilidade, ou para estar plenamente seguro de que você está a salvo para seguir com sua colaboração anônima, recomendamos que você utilize um sistema operacional "aminésico" conhecido como Tails [https://tails.boum.org/index.pt.html] - ele pode ser utilizado em diversos computadores e executado a partir de um pendrive USB, ou DVD, sem seixar rastros.
+
+	* Resumo, de Como Utilizar o Tails (com auxílio de um pendrive USB)
+	
+		+ Grave a imagem do Tails num pendrive;
+		+ Inicie o computador já com o pendrive plugado e acesse as opções de boot;
+			- para acessar as opções de boot, diferentes computadores usam diferentes teclas;
+			- algums computadores permitem acesso a opçoes de boot pela tecla 'ESC';
+			- utilizar a tecla 'DEL' (DELETE) também é uma alternativa para muitos computadores;
+			- outros utilizam as teclas 'F1', 'F2', ... ou 'F12'.
+		+ Selecione a opção para iniciar o sistema através do pendrive;
+		+ Neste ponto você já terá retorno visual do sistema sendo carregado;
+		+ Escolha seu idioma e pronto!
+
+	* Documentação Adicional: https://tails.boum.org/doc/index.pt.html
+	
+## Decidindo o Envio de Informe
+
+Existem instâncias oficiais do Secure Drop listadas publicamente através do endereço https://securedrop.org/directory - lá você pode decidir pelo país ou idioma que deseja utilizar para repassar sua informação. Utilize *SEMPRE* o endereço com sufixo '.onion' !
+
+## Fazendo sua Primeira Contribuição
+
+Se esta é a primeira vez que você está usando o navegador Tor, é provável que você ainda tenha JavaScript habilitado por padrão, para que você possa utilizar algumas funcionalidades em alguns sítios na web sem perda de suas funcionalidades. Entretanto, SecureDrop dispensa uso de JavaScript e outras funcionalidades extras presentes nos navegadores atuais para seu funcionamento. Recomendamos que você desative completamente estas funcionalidades quando for contribuir.
+
+Caso este seja seu caso, haverá um banner de aviso roxo na parte superior da página do SecureDrop que o encoraja a desativar completamente o uso de JavaScript:
+
+	* Clique no botãozinho com o simbolo da cebola, no canto superior esquerdo do navegador;
+	* Abra "Configurações de Seguraça";
+	* Mova a barra de rolagem para o nível mais elevado, desabilitando, assim, completamente o uso de JavaScript;
+	* Recarregue a página atual em que está navegando (precione a combinação de teclas CTRL+Shift+R).
+	
+Uma vez que você ajustou os níveis de execução de scripts antes mencionado, você está pronto para contribuir!
+
+Abra o endereço do SecureDrop que você deseja utilizar (não esquecendo que você deve utilizar o endereço com sufixo .onion), e siga em frente clicando na opção "Submeter pela Primeira Vez".
+
+Neste ponto você receberá um codenome (apelido/contrasenha/passe/código) para que tenha como acompanhar futuras respostas ou comentários sobre sua contribuição. Zele pela proteção desses dados, e dê preferencia a memorizar todos eles ao invés de deixá-los anotados num lugar/dispositivo extra. Caso você tenha dificuldades para memorizar estas informações, tudo bem, anote-as temporariamente e vá trabalhando para que possa memorizar estes dados (uma alternativa seria utilizar um gerenciador de senhas de código aberto, como o KeePassX, para armazenar estes dados).
+
+Empossado de seu codenome, siga adiante clicando na opção "Submeter Documentos" para enviar documentos ou mensagens.
+
+### NOTA (Fazendo sua Primeira Contribuição)
+
+O navegador Tor, por ser baseado no Mozilla Firefox, "sofre" de um bug que pode fazer com que os uploads falhem de forma imprevisível (na verdade, isso pode ser listado como uma funcionalidade benéfica do navegador Tor para impedir envios de arquivos para terceiros). Você pode evitar ter dificuldades no envio de documentos via SecureDrop desativando a sanitização de pedidos feita pelo plugin 'NoScript' - este procedimento TEMPORÁRIO é completamente seguro se você tiver alterado o nível de execução de scripts anteriormente para o nível mais elevado. As instruções para o primeiro passo do envio incluem um link para uma página explicando como ajustar suas configurações.
+
+Por fim, basta anexar os documentos que deseja compartilhar para fazer sua contribuição via SecureDrop, escrever uma mensagem (caso deseje) e clicar no botão para submeter o conteúdo.
+
+## Acompanhando Contribuições
+
+Você precisará seguir os passos anteriormente descritos para acessar a interface do SecureDrop com auxílio do navegador Tor (sempra usando o endereço com sufixo .onion); nada muda até este ponto. A única diferença é que para acompanhar suas contribuições você deverá optar pela opção "Verificar Respostas" na página inicial do SecureDrop.
+
+Entre com seu codenome e veja o estado em que se encontram suas contribuições. Pode ser que algumas perguntas ou pedidos adicionais por informações apareçam.
+
+Obrigadx!
