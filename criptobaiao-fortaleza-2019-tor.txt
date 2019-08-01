@@ -1,21 +1,20 @@
-• conceitos basicos
-  + definiçoes (resumo)
+• conceitos básicos
+  + definições (resumo)
     - projeto;
     - protocolo; 
     - rede;
     - navegador.
-  + visao simplificada da rede
+  + visão simplificada da rede
     - ingresso;
     - circuito;
-    - servicos.
-  + alternativas a gosto
+    - serviços.
+  + alternativas à gosto
     - modo privado;
-    - extensoes;
+    - extensões;
     - proxy;
     - outros navegadores;
     - rede virtual privada (vpn);
-    - i2p;
-    - freenet.
+    - i2p; freenet.
 ######################################################################
 
 • perguntas frequentes
@@ -23,26 +22,24 @@
   + quem usa?
   + porque usar?
   + crimonosos? spammers? hackers? trolls?
-  + deveria existir bloqueio de certos conteudos ou sitios web. nao?
-  + aplicaçoes compativeis?
+  + deveria existir bloqueio de certos conteúdos ou sítios web. não?
+  + aplicações compatíveis?
   + financiamento apoiado por militares?
   + vírus? backdoors?
-  + a rede nao poderia ser mais rapida? (quero assistir netflix)
-  + mais saltos garantiriam mais privacidade. como nao pensaram nisso?
+  + a rede não poderia ser mais rapida? (quero assistir netflix)
+  + mais saltos garantiriam mais privacidade. como não pensaram nisso?
   + compartilhamento de arquivos?
-  + qual o sentido em publicar a lista de nos?
-  + garantia de anonimato?
+  + qual o sentido em publicar a lista de nós?
+  + garantia de anonimato 100% e sem falhas?
   + problemas por colaborar? (policia federal vai invadir minha casa)
-  + como colaborar?
-    - derechosdigitales.org;
-    - torservers.net (icetor.is, digitale-gesellschaft.ch, enn.lu, awp.is);
-    - noisebridge.net; emeraldonion.org; nos-oignons.net; dfri.se.
+  + necessito de um hardware específico?
+  + como colaborar? <3
 ######################################################################
 
-• esforcos relacionados
+• esforços relacionados
   + navegador Tor
-    - estacoes de trabalho;
-    - dispositivos moveis (orbot & orfox, onion browser).
+    - estações de trabalho;
+    - dispositivos móveis (orbot & orfox, onion browser).
   + ooni
     - explorer;
     - api.
@@ -64,60 +61,69 @@
 • ferramentas adicionais
   + pf, ipfw, netfilter (iptables), npf, ufw; 
   + wireshark (tshark), tcpdump;
-  + unbound, dnsp, dnscrypt-proxy, doh-proxy;
+  + unbound, dnsp, bind, dnscrypt-proxy, doh-proxy;
   + socat, netcat (nc), redsocks, torsocks, proxychains;
   + privoxy, polipo, squid, haproxy;
   + kvm, qemu, xen, virtualbox, docker, chroot, jail (FreeBSD), vmm (OpenBSD);
   + suricata, snort, zeek (bro);
   + ntpd, openntpd, ntpdate;
-  + enigmail, keybase, gnupg (gpg);
+  + enigmail, keybase, gnupg (gpg/pgp), k-9;
+  + coreboot; libreboot;
   + metagoofil, mat;
-  + keepassxc; otp.
+  + keepassxc; bitwarden;
+  + signal; deltachat; wire;
+  + otp (andotp, linotp); privacyidea; yubikey;
+  + lineage OS (/e/); replicant; f-droid;
+  + nextcloud; owncloud; send (mozilla); up1 (riseup);
+  + luks; veracrypt; geli (freebsd); bioctl (openbsd);
+  + nautilus wipe; shred; dd;
+  + ossec; clamav.
 ######################################################################
 
-• informacoes adicionais sobre a rede
-  + ingresso de nos na rede
-  + obtencao do navegador com uma ajudinha extra
-  + pontes (nos de entrada camaradas
-  + obfuscadores de trafego (pyptlib, goptlib, pluto, liballium)
+• informações adicionais sobre a rede
+  + ingresso de nós na rede;
+  + obtenção do navegador com uma ajudinha extra;
+  + pontes (nós de entrada camaradas);
+  + obfuscadores de tráfego (pyptlib, goptlib, pluto, liballium);
     - fteproxy;
     - obfs4;
     - meek; meek-amazon; meek-azure;
     - scramblesuit;
-    - marionette; snowflake; psiphon3; lampshade; basket2; shadowsocks;
+    - marionette; snowflake;
+    - psiphon3; lampshade; basket2; shadowsocks;
     - skypemorph; flashproxy; uproxy; telex; stegotorus; sshproxy.
 ######################################################################
 
-• servicos acebolados
-  + .onion
+• serviços acebolados
+  + .onion;
     - /torspec/address-spec.txt;
     - /torspec/rend-spec-v2.txt;
     - /torspec/rend-spec-v3.txt.
-  + HTTP, SSH/SFTP, SMTP/IMAP/POP, DNS, ...
+  + HTTP, SSH/SFTP, SMTP/IMAP/POP, DNS;
   + encriptação fim-a-fim;
   + auto-autenticados, dispensando autoridade certificadora;
   + driblam tradução de endereços de rede (NAT punching);
   + modo privado/restrito/camuflado (steath mode).
 ######################################################################
 
-• graficos e numeros interessantes (estatisticas)
+• gráficos e números interessantes (estatísticas)
   + facebook, maior onion service dentro da rede Tor;
-  + enderecos .onion atualmente;
-    - preco;
-    - dominios existentes (tld, gtld);
+  + endereços .onion atualmente
+    - preços;
+    - domínios existentes (tld, gtld);
     - github pages (.io);
-    - fracao de onion services, comparada.
+    - representatividade dos onion services.
   + relays e bridges
     - quantidade global;
-    - paises com maior num. de relays;
-    - nos de saida existentes;
+    - países com maior número de relays;
+    - nós de saída existentes;
     - sistemas operacionais;
-    - versoes utilizadas para manter a rede.
-  + usuarios conectados
+    - versões utilizadas para manter a rede.
+  + usuários conectados
     - mundialmente falando;
     - apenas no brasil.
   + banda utilizada
-    - declarada, para uso publico;
+    - declarada, para uso público;
     - em uso para acesso de servicos acebolados.
   + tempo estimado para download
     - 1mb;
@@ -130,9 +136,13 @@
 
 • colaboracao, suporte e pesquisa
   + sitio oficial localizado; blog; twitter;
-  + wiki;
+  + wiki, reddit;
+  + entidades colaboradoras
+    - derechosdigitales.org;
+    - torservers.net (icetor.is, digitale-gesellschaft.ch, enn.lu, awp.is);
+    - noisebridge.net; emeraldonion.org; nos-oignons.net; dfri.se.
+  + git (tpo, github, gitlab);
+  + cebolas;
+  + listas de discussão;
   + irc (oftc);
-  + listas de discussao;
-  + reddit;
-  + git (tpo, gihub);
   + chutney; shadow.
