@@ -26,7 +26,7 @@
   + aplicações compatíveis?
   + financiamento apoiado por militares?
   + vírus? backdoors?
-  + a rede não poderia ser mais rapida? (quero assistir netflix)
+  + a rede não poderia ser mais rápida? (quero assistir netflix)
   + mais saltos garantiriam mais privacidade. como não pensaram nisso?
   + compartilhamento de arquivos?
   + qual o sentido em publicar a lista de nós?
@@ -45,12 +45,14 @@
     - api.
   + library freedom project;
   + torbsd;
+    - diversidade;
+    - oostats.
   + metrics (atlas, exonerator)
     - collector;
     - onionoo.
   + torbirdy;
   + chatsecure; ricochet (cwtch); briar;
-  + tails; whonix; qubes;
+  + tails; whonix; qubes; heads;
   + onionshare;
   + securedrop (deaddrop, strongbox); globaleaks;
   + nyx; stem; txtorcon; bine; carml; orchid;
@@ -58,38 +60,38 @@
   + heaven.
 ######################################################################
 
-• ferramentas adicionais
-  + pf, ipfw, netfilter (iptables), npf, ufw; 
-  + wireshark (tshark), tcpdump;
-  + unbound, dnsp, bind, dnscrypt-proxy, doh-proxy;
-  + socat, netcat (nc), redsocks, torsocks, proxychains;
-  + privoxy, polipo, squid, haproxy;
-  + kvm, qemu, xen, virtualbox, docker, chroot, jail (FreeBSD), vmm (OpenBSD);
-  + suricata, snort, zeek (bro);
-  + ntpd, openntpd, ntpdate;
-  + enigmail, keybase, gnupg (gpg/pgp), k-9;
-  + coreboot; libreboot;
-  + metagoofil, mat;
+• ferramentas extras 
+  + pf; ipfw, netfilter (iptables); npf; ufw; 
+  + wireshark (tshark); tcpdump;
+  + unbound; dnsp; bind; dnscrypt-proxy; doh-proxy;
+  + socat; netcat (nc); redsocks; torsocks; proxychains;
+  + privoxy; polipo; squid; haproxy;
+  + kvm; qemu; xen; virtualbox; docker; jail (freebsd); vmm (openbsd);
+  + suricata; snort; zeek (bro);
+  + ntpd; openntpd; ntpdate; htpdate;
+  + enigmail; keybase; gnupg; k-9;
+  + coreboot; libreboot; trisquel; pureos (purism); librecmc;
+  + metagoofil; mat;
   + keepassxc; bitwarden;
   + signal; deltachat; wire;
   + otp (andotp, linotp); privacyidea; yubikey;
   + lineage OS (/e/); replicant; f-droid;
   + nextcloud; owncloud; send (mozilla); up1 (riseup);
   + luks; veracrypt; geli (freebsd); bioctl (openbsd);
-  + nautilus wipe; shred; dd;
+  + nautilus wipe, shred; dd; bcwipe;
   + ossec; clamav.
 ######################################################################
 
 • informações adicionais sobre a rede
   + ingresso de nós na rede;
   + obtenção do navegador com uma ajudinha extra;
-  + pontes (nós de entrada camaradas);
+  + pontes (nós de entrada);
   + obfuscadores de tráfego (pyptlib, goptlib, pluto, liballium);
-    - fteproxy;
     - obfs4;
     - meek; meek-amazon; meek-azure;
-    - scramblesuit;
     - marionette; snowflake;
+    - fteproxy;
+    - scramblesuit;
     - psiphon3; lampshade; basket2; shadowsocks;
     - skypemorph; flashproxy; uproxy; telex; stegotorus; sshproxy.
 ######################################################################
@@ -99,11 +101,11 @@
     - /torspec/address-spec.txt;
     - /torspec/rend-spec-v2.txt;
     - /torspec/rend-spec-v3.txt.
-  + HTTP, SSH/SFTP, SMTP/IMAP/POP, DNS;
+  + HTTP; SSH/SFTP, SMTP/IMAP/POP, DNS;
   + encriptação fim-a-fim;
-  + auto-autenticados, dispensando autoridade certificadora;
-  + driblam tradução de endereços de rede (NAT punching);
-  + modo privado/restrito/camuflado (steath mode).
+  + auto-autenticados; dispensando autoridade certificadora;
+  + driblam tradução de endereços de rede (nat punching);
+  + modo privado/restrito/camuflado (stealth mode).
 ######################################################################
 
 • gráficos e números interessantes (estatísticas)
@@ -122,9 +124,9 @@
   + usuários conectados
     - mundialmente falando;
     - apenas no brasil.
-  + banda utilizada
+  + banda utilizada (tráfego na rede)
     - declarada, para uso público;
-    - em uso para acesso de servicos acebolados.
+    - em uso para acesso de serviços acebolados.
   + tempo estimado para download
     - 1mb;
     - 5mb.
@@ -134,9 +136,9 @@
     - ornetstatus; ornetradar (nusenu).
 ######################################################################
 
-• colaboracao, suporte e pesquisa
-  + sitio oficial localizado; blog; twitter;
-  + wiki, reddit;
+• colaboração, suporte e pesquisa
+  + sítio oficial; blog; twitter (mastodon);
+  + wiki (trac), reddit;
   + entidades colaboradoras
     - derechosdigitales.org;
     - torservers.net (icetor.is, digitale-gesellschaft.ch, enn.lu, awp.is);
