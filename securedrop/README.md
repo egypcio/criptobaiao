@@ -2,6 +2,8 @@
 
 Este conteúdo é uma tradução e interpretação livre feita a partir de https://docs.securedrop.org/en/release-0.12.1/source.html
 
+Caso você esteja interessado numa outra versão ou busque mais informações sobre como utilizar SecureDrop, o 'The Intercept Brasil' também mantém um pequeno guia em português que pode lhe ser útil: https://theintercept.com/brasil/fontes/
+
 ## Escolhendo o Local
 
 Quando segurança nacional está em questão, sugere-se que você compre um pendrive USB e um computador novo (podendo ser um ultrabook ou netbook). Pague em dinheiro! De quaisquer maneiras, você deve então encontrar um lugar tal qual um espaço para co-working ou um cyber café que você não vai regularmente e sentar-se em um lugar de costas para uma parede para evitar câmeras capturando informações em sua tela ou teclas pressionadas.
